@@ -1,5 +1,7 @@
 <img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
-#Git Portfolio
+
+# Git Portfolio
+
 ![npm](https://img.shields.io/badge/npm-v6.14.4-%23CB3837) ![express](https://img.shields.io/badge/express-v4.17.1-%2338A6FF)  ![uuidv4](https://img.shields.io/badge/uuidv4-v6.0.7-%23DB7093) ![jest](https://img.shields.io/badge/jest-v25.2.6-%2399425B) ![supertest](https://img.shields.io/badge/supertest-v4.0.2-%23F1DA50) ![nodemon](https://img.shields.io/badge/nodemon-v2.0.2-%2376D04B)
 
 Esta é uma aplicação backend em Node.js com **`Express`** que permite armazenar repositórios do GitHub como um portfólio, servindo como uma API REST. 
@@ -14,7 +16,7 @@ Como esta é uma aplicação do primeiro módulo do bootcamp, os dados estão se
 - [Instalar](#instalar)
 - [Executar](#executar)
 - [Entidades](#entidades)
-- [Rotas](#Rotas)
+- [Rotas](#rotas)
 - [Testes](#testes)
 
 
@@ -65,7 +67,7 @@ yarn dev
 ```
 O projeto estará rodando localmente em `http://localhost:3333`.
 
-No seu REST Client de preferência, cadastre as [rotas](#Rotas) fornecidas pela a aplicação para interagir.
+No seu REST Client de preferência, cadastre as [rotas](#rotas) fornecidas pela a aplicação para interagir.
 
 Para interromper sua execução, basta encerrar o terminal.
 
@@ -107,7 +109,7 @@ No contexto desse projeto, existem duas entidades:
 - **`POST /repositories/:id/like`**: Rota que incrementa um like em um repositório. Busca um repositório que possua o `id` presente nos parâmetros da rota, e caso encontre, aumenta o número de likes em 1. Caso não encontre, retorna um erro.
 
 ## Testes
-Os testes são feitos utilizando as dependências **`jest`** e **`supertest`** se encontram na pasta `__tests__`, e são referentes as duas [entidades](#Entidades).
+Os testes são feitos utilizando as dependências **`jest`** e **`supertest`** se encontram na pasta `__tests__`, e são referentes as duas [entidades](#entidades).
 
 Para rodar os estes, basta executar: 
 
