@@ -74,7 +74,7 @@ Para interromper sua execução, basta encerrar o terminal.
 
 ## Entidades
 No contexto desse projeto, existem duas entidades:
-- **Repositório**
+- ### Repositório
   A entidade repositório é um objeto que deve ter um **`id único`**, **`link para o repositório`**, **`título`**, **`tecnologias associadas`** e **`likes`**
   
   Abaixo um exemplo:
@@ -91,7 +91,7 @@ No contexto desse projeto, existem duas entidades:
 
   Cada **`id único`** é criado como um **UUID** (universally unique identifiers) com o auxílio da dependência **`uuidv4`**
 
-- **Like**
+- ### Like
   Um like é uma curtida não só associada com um repositório, mas também com o próprio usuário que deu um like. Neste sentido, um usuário **`cria`** um like ao curtir um repositório. 
   Visto que a entidade Usuário não existe neste escopo, o like neste momento é apenas um valor numérico. Porém, como estudo, já foi implementado com o ponto de vista de ser uma entidade.
   Os likes, sendo um valor numérico, iniciam em `0` e são incrementados.
